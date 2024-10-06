@@ -76,6 +76,11 @@ footer a {
     text-decoration: none;
 }
 
+.social-links img {
+    width: 30px;
+    height: auto;
+}
+
 
 /* Font CSS Styles */
 
