@@ -4,13 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="The 'about' page for a white water rafting website.">
+    <meta name="description" content="The 'contact' page for a white water rafting website.">
     <meta name="author" content="Jake Preciado">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/rafting.css">
-    <title>Dry Oar Rafting Co. - About Us</title>
+    <title>Dry Oar Rafting Co. - Contact Us</title>
 </head>
 
 <body>
@@ -23,65 +23,84 @@
             <a href="contact.html">Contact Us</a>
         </nav>
     </header>
+    <!-- <main>
+        <section>
+            <h1>Company Information</h1>
+
+            <h2>Meet the Team</h2>
+
+        </section>
+
+
+        <section>
+            <h1>Contact Us!</h1>
+
+        </section>
+    </main> -->
     <main>
-        <div class="hero">
-            <img src="./images/rafting1.jpg" alt="White water rafting down river" class="hero-image">
-            <h1>Dry Oar Rafting Co.</h1>
-            <article>
-                <img src="./images/rafting2.jpg" alt="Happy clients on raft" class="client-image">
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt suscipit pariatur commodi et
-                    voluptatem quidem obcaecati sunt, quam illo ipsum nemo autem! Voluptatem accusantium commodi maxime
-                    ratione ab totam esse.
-                </p>
-            </article>
+        <div class="columns">
+            <!-- Left Column: Company Information and Employee Profiles -->
+            <section class="company-info">
+                <h1>Company Information</h1>
+                <address>
+                    <h3>Dry Oar Rafting Co.</h3>
+                    <p>8950 Lower Deer Creek Rd<br>
+                        Heber City, UT 84032</p>
+                    <p>Phone: 435.654.0171<br>
+                        Fax: 206.973.5350</p>
+                    <p>Email: <a href="mailto:info@dryoarraftingco.com">info@dryoarraftingco.com</a></p>
+                </address>
+
+                <iframe class="google-map"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6820.890978979187!2d-111.53455981446508!3d40.400840973588316!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x874d8c6696b326e5%3A0x16d372231fc1a111!2sLower%20Provo%20River%20Park!5e0!3m2!1sen!2sus!4v1729365611025!5m2!1sen!2sus"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            </section>
+
+            <!-- Right Column: Contact Form -->
+            <section class="contact-form">
+                <h1>Contact Us!</h1>
+                <form action="submit_form.php" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <fieldset>
+                        <legend>Purpose of the Message:</legend>
+                        <input type="radio" id="inquiry" name="purpose" value="inquiry" required>
+                        <label for="inquiry">General Inquiry</label><br>
+                        <input type="radio" id="reservation" name="purpose" value="reservation">
+                        <label for="reservation">Reservation Question</label><br>
+                        <input type="radio" id="suggestion" name="purpose" value="suggestion">
+                        <label for="suggestion">Website Suggestion</label>
+                    </fieldset>
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea>
+
+
+                    <button type="submit">Send Message</button>
+                </form>
+            </section>
         </div>
-        <section class="history">
-            <h2>History</h2>
-            <div class="column">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium modi dolore eius vero quod ad,
-                    quaerat velit quo itaque eos reprehenderit quas iure, molestias soluta atque. Repellat quae
-                    accusamus placeat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit optio culpa
-                    labore cumque eius similique magnam minima tenetur, fugiat nam dolorum quae velit dolor laudantium
-                    ab doloribus voluptates tempore nostrum? Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Laboriosam accusantium accusamus deleniti tenetur. Quo fuga magnam mollitia.</p>
+        <h2 class="employee-heading">Meet the Team</h2>
+        <div class="employee-profiles">
+            <div class="employee">
+                <img src="./images/employee1.jpg" alt="Employee 1" />
+                <p>John Doe<br><span>Owner</span></p>
             </div>
-            <div class="column">
-                <img src="./images/rafting8.jpg" alt="Rafting down the river" class="history-image">
+            <div class="employee">
+                <img src="./images/employee2.jpg" alt="Employee 2" />
+                <p>Jane Smith<br><span>Raft Team Manager</span></p>
             </div>
-            <div class="column">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat corrupti rem assumenda consequuntur
-                    aliquam voluptate amet dignissimos ullam debitis blanditiis, nam mollitia, officiis at repellat cum
-                    quae maiores? Nostrum, quae. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita
-                    necessitatibus enim nesciunt fugiat blanditiis magnam iusto possimus quidem deserunt odio, unde
-                    aliquam nemo. Doloribus maxime, numquam ab animi obcaecati et. Unde dicta ratione dolorem,
-                    architecto rem veniam a nihil accusantium optio, perspiciatis nobis. Harum labore cum illo natus
-                    numquam.</p>
+            <div class="employee">
+                <img src="./images/employee3.jpg" alt="Employee 3" />
+                <p>Mike Johnson<br><span>Raft Guide</span></p>
             </div>
-        </section>
-        <section class="adventures">
-            <h2>Adventure Awaits You!</h2>
-            <figure>
-                <img src="./images/rafting3.jpg" alt="Los Dientes del Diablo">
-                <figcaption>Los Dientes del Diablo</figcaption>
-            </figure>
-            <figure>
-                <img src="./images/rafting4.jpg" alt="Big Mallard">
-                <figcaption>Big Mallard</figcaption>
-            </figure>
-            <figure>
-                <img src="./images/rafting5.jpg" alt="Half Day Adventure">
-                <figcaption>Half Day Adventure</figcaption>
-            </figure>
-            <figure>
-                <img src="./images/rafting6.jpg" alt="Wild River">
-                <figcaption>Wild River</figcaption>
-            </figure>
-            <figure>
-                <img src="./images/rafting7.jpg" alt="Exciting Rapids">
-                <figcaption>Exciting Rapids</figcaption>
-            </figure>
-        </section>
+        </div>
     </main>
     <footer class="social-links">
         <p>&copy;2024 | Dry Oar Rafting Co. | Jake Preciado</p>
