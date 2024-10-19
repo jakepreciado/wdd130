@@ -13,80 +13,6 @@
   --text-font: 'Roboto', sans-serif;
 }
 
-.columns {
-  display: flex;
-  justify-content: space-evenly;
-  gap: 20px;
-  margin: 20px;
-}
-
-.company-info {
-  width: 45%;
-}
-
-.company-info h3 {
-  margin-left: 20px;
-}
-
-address {
-  margin-left: 20px;
-}
-
-.contact-form {
-  width: 45%;
-}
-
-.employee-profiles {
-  display: flex;
-  justify-content: space-around;
-}
-
-.employee {
-  text-align: center;
-  width: 30%;
-}
-
-.employee img {
-  width: 300px;
-}
-
-.employee-heading {
-  text-align: center; 
-  margin-top: 30px; 
-  margin-bottom: 30px; 
-}
-
-form {
-  display: flex;
-  flex-direction: column;
-}
-
-form input,
-form textarea,
-form button {
-  margin-bottom: 1.6em;
-}
-
-button {
-  background-color: #6C91C2;
-  color: white;
-  padding: 10px;
-  border: none;
-  cursor: pointer;
-  font-size: 16px;
-}
-
-.google-map {
-  width: 100%;
-  height: 200px;
-}
-
-
-
-
-
-
-
 body {
   background-color: var(--background-color);
   color: var(--text-color);
@@ -269,6 +195,75 @@ footer.social-links a {
 footer.social-links img {
   width: 30px;
   height: auto;
+}
+
+/* Contact Page */
+.columns {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+  margin: 20px;
+}
+
+.company-info {
+  width: 45%;
+}
+
+.company-info h3 {
+  margin-left: 20px;
+}
+
+address {
+  margin-left: 20px;
+}
+
+.contact-form {
+  width: 45%;
+}
+
+.employee-profiles {
+  display: flex;
+  justify-content: space-around;
+}
+
+.employee {
+  text-align: center;
+  width: 30%;
+}
+
+.employee img {
+  width: 300px;
+}
+
+.employee-heading {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form input,
+form textarea,
+form button {
+  margin-bottom: 1em;
+}
+
+button {
+  background-color: #6C91C2;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.google-map {
+  width: 100%;
+  height: 200px;
 }
 
 
