@@ -24,6 +24,10 @@
   width: 45%;
 }
 
+.company-info h3 {
+  margin-left: 20px;
+}
+
 address {
   margin-left: 20px;
 }
@@ -48,10 +52,9 @@ address {
 
 .employee-heading {
   text-align: center; 
-  margin-top: 40px; 
-  margin-bottom: 20px; 
+  margin-top: 30px; 
+  margin-bottom: 30px; 
 }
-
 
 form {
   display: flex;
@@ -61,7 +64,7 @@ form {
 form input,
 form textarea,
 form button {
-  margin-bottom: 1em;
+  margin-bottom: 1.6em;
 }
 
 button {
