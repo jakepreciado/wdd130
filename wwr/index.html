@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The 'home' page for a white water rafting website.">
+    <meta name="author" content="Jake Preciado">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/rafting.css">
+    <title>Dry Oar Rafting Co. - Home</title>
+</head>
+
+<body>
+    <header>
+        <img src="./images/logo.png" alt="Dry Oar Rafting Co. logo">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+    <main>
+        <h1 class="home-title">DRY OAR RAFTING CO.</h1>
+        <div class="home-hero">
+            <img src="./images/home-hero.jpg" alt="Scenic landscape of river" class="hero-image">
+            <h1>Ready for Your Next Adventure?</h1>
+            <div class="home-sub-heading">
+                <h2>Join us for an unforgettable experience on the river!</h2>
+                <button onclick="location.href='trips.html'">
+                    Explore Our Trips
+                    <span class="arrow">→</span>
+                </button>
+            </div>
+        </div>
+        <section class="offerings">
+            <h2>Our Offerings</h2>
+            <div class="grid-layout">
+                <div class="offering">
+                    <img src="offering1.jpg" alt="Family Rafting">
+                    <h3>Family Rafting Trips</h3>
+                    <p>Enjoy a fun-filled day with the family on our guided rafting trips suitable for all ages!</p>
+                </div>
+                <div class="offering">
+                    <img src="offering2.jpg" alt="Extreme Rafting">
+                    <h3>Extreme Rafting Adventures</h3>
+                    <p>For the adrenaline junkies, our extreme rafting trips offer the thrill of a lifetime!</p>
+                </div>
+            </div>
+        </section>
+        <section class="adventures">
+            <h2>Adventure Awaits You!</h2>
+            <figure>
+                <img src="./images/rafting3.jpg" alt="Los Dientes del Diablo">
+                <figcaption>Los Dientes del Diablo</figcaption>
+            </figure>
+            <figure>
+                <img src="./images/rafting4.jpg" alt="Big Mallard">
+                <figcaption>Big Mallard</figcaption>
+            </figure>
+            <figure>
+                <img src="./images/rafting5.jpg" alt="Half Day Adventure">
+                <figcaption>Half Day Adventure</figcaption>
+            </figure>
+            <figure>
+                <img src="./images/rafting6.jpg" alt="Wild River">
+                <figcaption>Wild River</figcaption>
+            </figure>
+            <figure>
+                <img src="./images/rafting7.jpg" alt="Exciting Rapids">
+                <figcaption>Exciting Rapids</figcaption>
+            </figure>
+        </section>
+        <section class="newsletter">
+            <h2>Sign Up for Our Newsletter</h2>
+            <form action="submit_newsletter.php" method="post">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <button type="submit">Subscribe</button>
+            </form>
+        </section>
+    </main>
+    <footer class="social-links">
+        <div class="footer-info">
+            <p>&copy;2024 | Dry Oar Rafting Co. | Jake Preciado</p>
+
+        </div>
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/login">
+                <img src="./images/linkedin.png" alt="LinkedIn logo">
+            </a>
+            <a href="https://www.facebook.com/">
+                <img src="./images/facebook.png" alt="Facebook logo">
+            </a>
+            <a href="https://x.com/">
+                <img src="./images/twitter.png" alt="X Twitter logo">
+            </a>
+        </div>
+    </footer>
+</body>
+
+</html>
+
+<!-- ------------------------------------------------------------------------- -->
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/rafting.css">
+    <title>WWR Rafting - Home</title>
+</head>
+<body>
+
+<header>
+    <h1>WWR Rafting Adventures</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="trips.html">Trips</a>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<div class="home-hero">
+    <img src="home-hero.jpg" alt="White Water Rafting Adventure">
+    <div class="trips-call-to-action">
+        <h2>Ready for Your Next Adventure?</h2>
+        <p>Join us for an unforgettable experience on the river!</p>
+        <a href="trips.html" class="cta-button">Explore Our Trips</a>
+    </div>
+</div>
+
+<section class="newsletter">
+    <h2>Sign Up for Our Newsletter</h2>
+    <form action="submit_newsletter.php" method="post">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <button type="submit">Subscribe</button>
+    </form>
+</section>
+
+
+
+<section class="offerings">
+    <h2>Our Offerings</h2>
+    <div class="grid-layout">
+        <div class="offering">
+            <img src="offering1.jpg" alt="Family Rafting">
+            <h3>Family Rafting Trips</h3>
+            <p>Enjoy a fun-filled day with the family on our guided rafting trips suitable for all ages!</p>
+        </div>
+        <div class="offering">
+            <img src="offering2.jpg" alt="Extreme Rafting">
+            <h3>Extreme Rafting Adventures</h3>
+            <p>For the adrenaline junkies, our extreme rafting trips offer the thrill of a lifetime!</p>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2024 WWR Rafting. All rights reserved.</p>
+</footer>
+
+</body>
+</html> -->
