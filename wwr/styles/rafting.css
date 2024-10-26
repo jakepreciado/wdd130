@@ -128,10 +128,15 @@ header nav a {
   text-shadow: 2px 2px 3px black;
 }
 
+.sign-up-form {
+  margin: 0;
+}
+
 .newsletter {
   display: grid;
   place-self: center;
   width: 50%;
+  padding: 20px;
   text-align: center;
 }
 
@@ -149,7 +154,7 @@ header nav a {
 
 .offering {
   background-color: var(--text-color);
-  color: var(--primary-color);
+  color: white;
   padding: 15px;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -282,7 +287,6 @@ h2 {
   padding: 20px;
   color: var(--text-color);
   background-color: var(--accent2-color);
-  margin-top: 20px;
 }
 
 .footer-info {
@@ -358,7 +362,7 @@ form button {
 }
 
 button {
-  background-color: #6C91C2;
+  background-color: var(--text-color);
   color: white;
   padding: 10px;
   border: none;
