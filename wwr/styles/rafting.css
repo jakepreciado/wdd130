@@ -48,6 +48,10 @@ header nav a {
   align-self: center;
 }
 
+nav a:hover{
+  color: black;
+}
+
 .hero {
   position: relative;
   width: 100%;
@@ -88,7 +92,7 @@ header nav a {
   object-fit: cover;
 }
 
-.home-hero h1{
+.home-hero h1 {
   font-family: var(--heading-font);
   position: absolute;
   top: 250px;
@@ -306,7 +310,6 @@ h2 {
   margin: 0 10px;
 }
 
-/* Contact Page */
 .columns {
   display: flex;
   justify-content: space-evenly;
@@ -365,9 +368,20 @@ button {
   background-color: var(--text-color);
   color: white;
   padding: 10px;
-  border: none;
+  border: 1px solid white;
+  border-radius: 5px;
   cursor: pointer;
   font-size: 16px;
+}
+
+button a {
+  text-decoration: none;
+  color: white;
+}
+
+
+button:hover {
+  background-color: #131d27;
 }
 
 .google-map {
@@ -451,4 +465,114 @@ button {
   font-family: "Roboto", sans-serif;
   font-weight: 900;
   font-style: italic;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 20px;
+}
+
+.left-section {
+  padding: 20px;
+}
+
+.right-section {
+  padding: 20px;
+  color: white;
+  background-color: var(--text-color);
+}
+
+.book-trip {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.booking-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tables-button {
+  display: grid;
+  place-self: center;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.booking-tag {
+  margin-right: 10px;
+}
+
+.booking-info p {
+  margin: auto;
+}
+
+.trip-descriptions,
+.additional-trips {
+  margin-bottom: 20px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+}
+
+.trip {
+  padding: 10px;
+}
+
+
+.trip img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.trip-table h2 {
+  color: white;
+}
+
+.trip-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.trip-table th,
+.trip-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.trip-table th {
+  background-color: rgb(37, 38, 49);
+  color: white;
+}
+
+.hours-of-operation {
+  margin-top: 20px;
+}
+
+.hours-of-operation h2 {
+  color: white;
+}
+
+.hours-of-operation table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.hours-of-operation th,
+.hours-of-operation td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.hours-of-operation th {
+  background-color: rgb(37, 38, 49);
+  color: white;
 }
